@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="AKUa9U" name="GMSQ1" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" companyName="BitCuber"
+              pluginCharacteristicsValue="pluginIsSynth,pluginProducesMidiOut,pluginWantsMidiIn"
+              displaySplashScreen="1">
+  <MAINGROUP id="FivXgl" name="GMSQ1">
+    <GROUP id="{1B1C19AA-66E9-E068-2F21-D787F1B085BE}" name="Source">
+      <GROUP id="{22A50E56-399D-6880-B8D5-F2862AE17801}" name="DSP">
+        <FILE id="iwSJRU" name="Env.cpp" compile="1" resource="0" file="Source/DSP/Env.cpp"/>
+        <FILE id="KmO1YA" name="Env.h" compile="0" resource="0" file="Source/DSP/Env.h"/>
+        <FILE id="niuR1r" name="Filter.cpp" compile="1" resource="0" file="Source/DSP/Filter.cpp"/>
+        <FILE id="NlAMSW" name="Filter.h" compile="0" resource="0" file="Source/DSP/Filter.h"/>
+        <FILE id="CXTvI2" name="LFO.cpp" compile="1" resource="0" file="Source/DSP/LFO.cpp"/>
+        <FILE id="OGg4Tr" name="LFO.h" compile="0" resource="0" file="Source/DSP/LFO.h"/>
+        <FILE id="Y7gYhN" name="Master.cpp" compile="1" resource="0" file="Source/DSP/Master.cpp"/>
+        <FILE id="NE8MYv" name="Master.h" compile="0" resource="0" file="Source/DSP/Master.h"/>
+        <FILE id="g40Tkc" name="ModMatrix.cpp" compile="1" resource="0" file="Source/DSP/ModMatrix.cpp"/>
+        <FILE id="PEpRmi" name="ModMatrix.h" compile="0" resource="0" file="Source/DSP/ModMatrix.h"/>
+        <FILE id="GC2ZwM" name="Osc.cpp" compile="1" resource="0" file="Source/DSP/Osc.cpp"/>
+        <FILE id="z8qtPT" name="Osc.h" compile="0" resource="0" file="Source/DSP/Osc.h"/>
+        <FILE id="IuXKg2" name="Params.cpp" compile="1" resource="0" file="Source/DSP/Params.cpp"/>
+        <FILE id="Ne1CtO" name="Params.h" compile="0" resource="0" file="Source/DSP/Params.h"/>
+      </GROUP>
+      <GROUP id="{24397FB9-CC68-61B7-18FE-51FE97755C7B}" name="GUI">
+        <FILE id="nnYFkL" name="Env1GUI.cpp" compile="1" resource="0" file="Source/GUI/Env1GUI.cpp"/>
+        <FILE id="MMbiEL" name="Env1GUI.h" compile="0" resource="0" file="Source/GUI/Env1GUI.h"/>
+        <FILE id="HuFPYU" name="Env2GUI.cpp" compile="1" resource="0" file="Source/GUI/Env2GUI.cpp"/>
+        <FILE id="EwFkuK" name="Env2GUI.h" compile="0" resource="0" file="Source/GUI/Env2GUI.h"/>
+        <FILE id="CcM9vV" name="Env3GUI.cpp" compile="1" resource="0" file="Source/GUI/Env3GUI.cpp"/>
+        <FILE id="YkY9I1" name="Env3GUI.h" compile="0" resource="0" file="Source/GUI/Env3GUI.h"/>
+        <FILE id="aVRXw9" name="FilterGUI.cpp" compile="1" resource="0" file="Source/GUI/FilterGUI.cpp"/>
+        <FILE id="ZQ2d2t" name="FilterGUI.h" compile="0" resource="0" file="Source/GUI/FilterGUI.h"/>
+        <FILE id="W84x7C" name="LFO1GUI.cpp" compile="1" resource="0" file="Source/GUI/LFO1GUI.cpp"/>
+        <FILE id="luC26x" name="LFO1GUI.h" compile="0" resource="0" file="Source/GUI/LFO1GUI.h"/>
+        <FILE id="jx2dVZ" name="LFO2GUI.cpp" compile="1" resource="0" file="Source/GUI/LFO2GUI.cpp"/>
+        <FILE id="e75uU9" name="LFO2GUI.h" compile="0" resource="0" file="Source/GUI/LFO2GUI.h"/>
+        <FILE id="frt6dz" name="LookAndFeel.cpp" compile="1" resource="0" file="Source/GUI/LookAndFeel.cpp"/>
+        <FILE id="WT9Lx2" name="LookAndFeel.h" compile="0" resource="0" file="Source/GUI/LookAndFeel.h"/>
+        <FILE id="cZk4Td" name="MasterGUI.cpp" compile="1" resource="0" file="Source/GUI/MasterGUI.cpp"/>
+        <FILE id="bfDxj8" name="MasterGUI.h" compile="0" resource="0" file="Source/GUI/MasterGUI.h"/>
+        <FILE id="neJE4y" name="ModMatrixGUI.cpp" compile="1" resource="0"
+              file="Source/GUI/ModMatrixGUI.cpp"/>
+        <FILE id="XqCYQl" name="ModMatrixGUI.h" compile="0" resource="0" file="Source/GUI/ModMatrixGUI.h"/>
+        <FILE id="BcGXRJ" name="Osc1GUI.cpp" compile="1" resource="0" file="Source/GUI/Osc1GUI.cpp"/>
+        <FILE id="BDptyk" name="Osc1GUI.h" compile="0" resource="0" file="Source/GUI/Osc1GUI.h"/>
+        <FILE id="lMKQGu" name="Osc2GUI.cpp" compile="1" resource="0" file="Source/GUI/Osc2GUI.cpp"/>
+        <FILE id="c9Mpe7" name="Osc2GUI.h" compile="0" resource="0" file="Source/GUI/Osc2GUI.h"/>
+        <FILE id="qJ2in8" name="Osc3GUI.cpp" compile="1" resource="0" file="Source/GUI/Osc3GUI.cpp"/>
+        <FILE id="ONdby8" name="Osc3GUI.h" compile="0" resource="0" file="Source/GUI/Osc3GUI.h"/>
+        <FILE id="w5fkZq" name="RotarySliderWithTextbox.cpp" compile="1" resource="0"
+              file="Source/GUI/RotarySliderWithTextbox.cpp"/>
+        <FILE id="ktQCNV" name="RotarySliderWithTextbox.h" compile="0" resource="0"
+              file="Source/GUI/RotarySliderWithTextbox.h"/>
+        <FILE id="d9uvjR" name="Utilities.cpp" compile="1" resource="0" file="Source/GUI/Utilities.cpp"/>
+        <FILE id="y0DOUO" name="Utilities.h" compile="0" resource="0" file="Source/GUI/Utilities.h"/>
+      </GROUP>
+      <FILE id="LCf9VH" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="OnorvL" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="jADgJa" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="OrYHCu" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="qTc6iJ" name="SynthVoice.cpp" compile="1" resource="0" file="Source/SynthVoice.cpp"/>
+      <FILE id="WjplRz" name="SynthVoice.h" compile="0" resource="0" file="Source/SynthVoice.h"/>
+      <FILE id="OPvuOq" name="SynthSound.h" compile="0" resource="0" file="Source/SynthSound.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="NewSynth"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="NewSynth"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE6/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE6/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE6/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../JUCE6/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE6/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE6/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE6/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE6/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE6/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE6/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE6/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE6/modules"/>
+        <MODULEPATH id="juce_dsp" path="../JUCE6/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
